@@ -1,0 +1,21 @@
+/*
+ * main implementation: use this 'C' sample to create your own application
+ *
+ */
+#include "derivative.h" /* include peripheral declarations */
+#include "INT_PIT.h"
+//思路：设置五档亮度的高电平占空比，在每个计时器中断中修改高电平占空比
+
+int main(void)
+{
+	int counter = 0;
+	
+	
+	
+	
+	for(;;) {	   
+	   	counter++;
+	}
+	
+	return 0;
+}

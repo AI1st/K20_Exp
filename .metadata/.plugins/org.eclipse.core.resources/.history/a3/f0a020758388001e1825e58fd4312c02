@@ -1,0 +1,293 @@
+/*
+ *    kinetis_sysinit.c - Default init routines for P2
+ *                     		Kinetis ARM systems
+ *    Copyright �2012 Freescale semiConductor Inc. All Rights Reserved.
+ */
+ 
+#include "kinetis_sysinit.h"
+#include "derivative.h"
+#include "digitron.h"
+#include "common.h"
+#include "beep.h"
+
+/**
+ **===========================================================================
+ **  External declarations
+ **===========================================================================
+ */
+#if __cplusplus
+extern "C" {
+#endif
+extern uint32_t __vector_table[];
+extern unsigned long _estack;
+extern void __thumb_startup(void);
+#if __cplusplus
+}
+#endif
+
+/**
+ **===========================================================================
+ **  Variables defined
+ **===========================================================================
+ */
+int state = 0;
+int freq = 0;
+extern int press_key;
+
+/**
+ **===========================================================================
+ **  Functions defined
+ **===========================================================================
+ */
+int get_freq(int number_in){
+	if(number_in == 8){
+		state = (state+1)%3;
+		return freq_list[state*7+number_in-1];
+	}
+	return freq_list[state*7+number_in-1];
+}
+
+/**
+ **===========================================================================
+ **  Default interrupt handler
+ **===========================================================================
+ */
+void Default_Handler()
+{
+	__asm("bkpt");
+}
+
+/**
+ **===========================================================================
+ **  Reset handler
+ **===========================================================================
+ */
+void PORTB_Handler()
+{
+	delay(10); //按键去抖
+	if(PORTB_ISFR&0b100000000000000000)  //sw1  -  0
+	    {
+			press_key = 1;
+			freq = get_freq(press_key);
+			Beep_setup(freq);
+			delay(100);
+			
+	    }
+	if(PORTB_ISFR& 0b10000000000000000)  //sw2  -  1
+		{
+			press_key = 2;
+			freq = get_freq(press_key);
+			Beep_setup(freq);
+			delay(duration[10]);
+		}
+	if(PORTB_ISFR&      0b100000000000)  //sw3  -  2
+		{
+			press_key = 3;
+			freq = get_freq(press_key);
+			Beep_setup(freq);
+			delay(100);
+		}
+	if(PORTB_ISFR&       0b10000000000)  //sw4  -  3
+		{
+			press_key = 4;
+			freq = get_freq(press_key);
+			Beep_setup(freq);
+			delay(100);
+		}
+	while((GPIOB_PDIR&0x030C00)!= 0x030C00){}
+	press_key = 0; //reset press_key	
+	PORTB_ISFR |= 0x0FFFFF;  //Clear ort B  flags
+
+	
+}
+
+void PORTE_Handler()
+{
+	delay(10); //按键去抖
+	if(PORTE_ISFR&0b100)     //sw5  -  4        //按键按下该位后中断标志为1 
+		{
+			press_key = 5;
+			freq = get_freq(press_key);
+			Beep_setup(freq);
+			delay(100);
+		}
+	if(PORTE_ISFR&0b1000)    //sw6  -  5       
+		{
+			press_key = 6;
+			freq = get_freq(press_key);
+			Beep_setup(freq);
+			delay(100);
+		}
+	if(PORTE_ISFR&0b10000)   //sw7  -  6        
+		{
+			press_key = 7;
+			freq = get_freq(press_key);
+			Beep_setup(freq);
+			delay(100);
+		}
+	if(PORTE_ISFR&0b100000)  //sw8  -  +        
+		{
+			press_key = 8;
+			freq = get_freq(press_key);
+			Beep_setup(freq);
+			delay(100);
+		}
+	
+	while((GPIOE_PDIR&0x003C)!= 0x003C){}
+	
+	press_key = 0; //reset press_key	
+	PORTE_ISFR |= 0x0000FF;  //Clear Port E  flags
+
+}
+
+void __init_hardware()
+{
+	SCB_VTOR = (uint32_t)__vector_table; /* Set the interrupt vector table position */
+	/*
+		Disable the Watchdog because it may reset the core before entering main().
+		There are 2 unlock words which shall be provided in sequence before
+		accessing the control register.
+	*/
+	WDOG_UNLOCK = KINETIS_WDOG_UNLOCK_SEQ_1;
+	WDOG_UNLOCK = KINETIS_WDOG_UNLOCK_SEQ_2;
+	WDOG_STCTRLH = KINETIS_WDOG_DISABLED_CTRL;
+}
+
+/* Weak definitions of handlers point to Default_Handler if not implemented */
+void NMI_Handler() __attribute__ ((weak, alias("Default_Handler")));
+void HardFault_Handler() __attribute__ ((weak, alias("Default_Handler")));
+void MemManage_Handler() __attribute__ ((weak, alias("Default_Handler")));
+void BusFault_Handler() __attribute__ ((weak, alias("Default_Handler")));
+void UsageFault_Handler() __attribute__ ((weak, alias("Default_Handler")));
+void SVC_Handler() __attribute__ ((weak, alias("Default_Handler")));
+void DebugMonitor_Handler() __attribute__ ((weak, alias("Default_Handler")));
+void PendSV_Handler() __attribute__ ((weak, alias("Default_Handler")));
+void SysTick_Handler() __attribute__ ((weak, alias("Default_Handler")));
+
+
+/* The Interrupt Vector Table */
+void (* const InterruptVector[])() __attribute__ ((section(".vectortable"))) = {
+    /* Processor exceptions */
+    (void(*)(void)) &_estack,
+    __thumb_startup,
+    NMI_Handler, 
+    HardFault_Handler, 
+    MemManage_Handler, 
+    BusFault_Handler,
+    UsageFault_Handler, 
+    0, 
+    0, 
+    0, 
+    0, 
+    SVC_Handler, 
+    DebugMonitor_Handler, 
+    0,
+    PendSV_Handler, 
+    SysTick_Handler,
+
+    /* Interrupts */
+    Default_Handler,  //0
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,  //10
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,  //20
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,  //30
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,  //40
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,  //50
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,  //60
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,  //70
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,  //80
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    PORTB_Handler,    //88
+    Default_Handler,
+    Default_Handler,  //90
+    PORTE_Handler,    //91
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,  //100	
+    Default_Handler,
+    Default_Handler,
+    Default_Handler,		
+};

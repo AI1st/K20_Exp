@@ -1,0 +1,889 @@
+Archive member included because of file (symbol)
+
+D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+                              ./Project_Settings/Startup_Code/__arm_start.o (exit)
+D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+                              ./Project_Settings/Startup_Code/__arm_start.o (memset)
+D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+                              (__pformatter_)
+D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+                              (__sformatter)
+D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                              D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o) (isspace)
+D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+                              D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o) (__strtoul)
+D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+                              D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o) (__fill_mem)
+D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+                              D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o) (memchr)
+D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+                              D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o) (strchr)
+D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+                              D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o) (strlen)
+D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+                              ./Project_Settings/Startup_Code/__arm_start.o (__init_cpp)
+D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+                              ./Project_Settings/Startup_Code/__arm_start.o (__copy_rom_sections_to_ram)
+D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                              D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o) (__destroy_global_chain)
+
+Allocating common symbols
+Common symbol       size              file
+
+SlaveID             0x1               ./Sources/MMA8451Q.o
+temperature_value   0x4               ./Sources/main.o
+MasterTransmission  0x1               ./Sources/MMA8451Q.o
+MMA8451_Y_MSB       0x1               ./Sources/main.o
+flag_measure        0x1               ./Project_Settings/Startup_Code/kinetis_sysinit.o
+tom                 0x1               ./Sources/UART0.o
+photo_value         0x4               ./Sources/main.o
+MMA8451_data        0x6               ./Project_Settings/Startup_Code/kinetis_sysinit.o
+lED4_light_flag     0x1               ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ADC_value           0x4               ./Sources/main.o
+MMA8451_Z_LSB       0x1               ./Sources/main.o
+MMA8451_XYZ_CFG     0x1               ./Sources/main.o
+MMA8451_X_LSB       0x1               ./Sources/main.o
+brfa                0x2               ./Sources/UART0.o
+lED3_light_flag     0x1               ./Project_Settings/Startup_Code/kinetis_sysinit.o
+c                   0x4               ./Project_Settings/Startup_Code/kinetis_sysinit.o
+MMA8451_X_MSB       0x1               ./Sources/main.o
+lED2_light_flag     0x1               ./Project_Settings/Startup_Code/kinetis_sysinit.o
+sbr                 0x2               ./Sources/UART0.o
+MMA8451_Y_LSB       0x1               ./Sources/main.o
+show                0x6               ./Sources/main.o
+ADC_Result          0x4               ./Sources/main.o
+lED1_light_flag     0x1               ./Project_Settings/Startup_Code/kinetis_sysinit.o
+MMA8451_Z_MSB       0x1               ./Sources/main.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/__arm_start.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/__arm_start.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/__arm_start.o
+ .text.__iar_program_start
+                0x00000000        0x4 ./Project_Settings/Startup_Code/__arm_start.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/__arm_end.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/__arm_end.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/__arm_end.o
+ .text          0x00000000        0x0 ./Sources/main.o
+ .data          0x00000000        0x0 ./Sources/main.o
+ .bss           0x00000000        0x0 ./Sources/main.o
+ .text          0x00000000        0x0 ./Sources/UART0.o
+ .data          0x00000000        0x0 ./Sources/UART0.o
+ .bss           0x00000000        0x0 ./Sources/UART0.o
+ .text.uart0_getchar
+                0x00000000       0x30 ./Sources/UART0.o
+ .text.UART0_SendChar
+                0x00000000       0x38 ./Sources/UART0.o
+ .text.dtoa     0x00000000       0x30 ./Sources/UART0.o
+ .text.UART0_SendHex
+                0x00000000       0x58 ./Sources/UART0.o
+ .text          0x00000000        0x0 ./Sources/System.o
+ .data          0x00000000        0x0 ./Sources/System.o
+ .bss           0x00000000        0x0 ./Sources/System.o
+ .text          0x00000000        0x0 ./Sources/PIT.o
+ .data          0x00000000        0x0 ./Sources/PIT.o
+ .bss           0x00000000        0x0 ./Sources/PIT.o
+ .text          0x00000000        0x0 ./Sources/MMA8451Q.o
+ .data          0x00000000        0x0 ./Sources/MMA8451Q.o
+ .bss           0x00000000        0x0 ./Sources/MMA8451Q.o
+ .text          0x00000000        0x0 ./Sources/LED.o
+ .data          0x00000000        0x0 ./Sources/LED.o
+ .bss           0x00000000        0x0 ./Sources/LED.o
+ .text          0x00000000        0x0 ./Sources/Beep.o
+ .data          0x00000000        0x0 ./Sources/Beep.o
+ .bss           0x00000000        0x0 ./Sources/Beep.o
+ .text          0x00000000        0x0 ./Sources/ADC.o
+ .data          0x00000000        0x0 ./Sources/ADC.o
+ .bss           0x00000000        0x0 ./Sources/ADC.o
+ .text          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .data          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .bss           0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .data          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .bss           0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .data          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .bss           0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .data          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .bss           0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .data          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .bss           0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.isalnum  0x00000000       0x18 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.iscntrl  0x00000000       0x1c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.isdigit  0x00000000        0xc D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.isgraph  0x00000000       0x18 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.islower  0x00000000       0x1c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.isprint  0x00000000       0x18 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.ispunct  0x00000000       0x1c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.isupper  0x00000000       0x1c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.isxdigit
+                0x00000000       0x1c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.isblank  0x00000000       0x28 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.tolower  0x00000000        0xc D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .data          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .bss           0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .data          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .bss           0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .data          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .bss           0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .data          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .bss           0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .data          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .bss           0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .data          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .bss           0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .bss.__dso_handle
+                0x00000000        0x4 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .data          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .bss           0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .text.__flush_cache
+                0x00000000        0x2 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .text          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .data          0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .bss           0x00000000        0x0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__register_global_object
+                0x00000000       0x14 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__cxa_atexit
+                0x00000000       0x38 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__aeabi_atexit
+                0x00000000        0xa D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__register_atexit
+                0x00000000        0x8 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__init_hardware
+                0x00000000        0x4 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .bss.atexit_curr_func
+                0x00000000        0x4 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .bss.atexit_funcs
+                0x00000000      0x300 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x1fff0000         0x000001e0         xr
+m_text           0x1fff01e0         0x0000fe20         xr
+m_data           0x20000000         0x00010000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./Project_Settings/Startup_Code/kinetis_sysinit.o
+LOAD ./Project_Settings/Startup_Code/__arm_start.o
+LOAD ./Project_Settings/Startup_Code/__arm_end.o
+LOAD ./Sources/main.o
+LOAD ./Sources/UART0.o
+LOAD ./Sources/System.o
+LOAD ./Sources/PIT.o
+LOAD ./Sources/MMA8451Q.o
+LOAD ./Sources/LED.o
+LOAD ./Sources/Beep.o
+LOAD ./Sources/ADC.o
+                0x1fff1e34                __pformatter = __pformatter_
+                [0x1fff222c]                __sformatter = __sformatter
+START GROUP
+LOAD D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a
+LOAD D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libm.a
+LOAD d:/program files (x86)/cw mcu v10.4/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a
+LOAD D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a
+LOAD D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libuart.a
+END GROUP
+                0x20010000                _estack = 0x20010000
+                0x20010000                __SP_INIT = _estack
+                0x00000800                __heap_size = 0x800
+                0x00000800                __stack_size = 0x800
+
+.interrupts     0x1fff0000      0x1e0
+                0x1fff0000                __vector_table = .
+                0x1fff0000                . = ALIGN (0x4)
+ *(.vectortable)
+ .vectortable   0x1fff0000      0x1e0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x1fff0000                InterruptVector
+                0x1fff01e0                . = ALIGN (0x4)
+
+.text           0x1fff01e0     0x2c90
+                0x1fff01e0                . = ALIGN (0x4)
+ *(.text)
+ *(.text*)
+ .text.Default_Handler
+                0x1fff01e0        0xc ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x1fff01e0                HardFault_Handler
+                0x1fff01e0                SysTick_Handler
+                0x1fff01e0                PendSV_Handler
+                0x1fff01e0                NMI_Handler
+                0x1fff01e0                UsageFault_Handler
+                0x1fff01e0                Default_Handler
+                0x1fff01e0                MemManage_Handler
+                0x1fff01e0                SVC_Handler
+                0x1fff01e0                BusFault_Handler
+                0x1fff01e0                DebugMonitor_Handler
+ .text.PORTB_Handler
+                0x1fff01ec      0x160 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x1fff01ec                PORTB_Handler
+ .text.PORTE_Handler
+                0x1fff034c      0x178 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x1fff034c                PORTE_Handler
+ .text.uart0_isr
+                0x1fff04c4       0xdc ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x1fff04c4                uart0_isr
+ .text.pit_channel0_ISR
+                0x1fff05a0       0xbc ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x1fff05a0                pit_channel0_ISR
+ .text.__init_hardware
+                0x1fff065c       0x44 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x1fff065c                __init_hardware
+ .text.zero_fill_bss
+                0x1fff06a0       0x2c ./Project_Settings/Startup_Code/__arm_start.o
+ .text.__thumb_startup
+                0x1fff06cc       0x30 ./Project_Settings/Startup_Code/__arm_start.o
+                0x1fff06cc                __thumb_startup
+ .text._ExitProcess
+                0x1fff06fc        0xc ./Project_Settings/Startup_Code/__arm_end.o
+                0x1fff06fc                _ExitProcess
+ .text.main     0x1fff0708       0xc8 ./Sources/main.o
+                0x1fff0708                main
+ .text.UART0_send_data
+                0x1fff07d0       0x58 ./Sources/UART0.o
+                0x1fff07d0                UART0_send_data
+ .text.UART0_Init
+                0x1fff0828      0x154 ./Sources/UART0.o
+                0x1fff0828                UART0_Init
+ .text.delayms  0x1fff097c       0x44 ./Sources/System.o
+                0x1fff097c                delayms
+ .text.enable_irq
+                0x1fff09c0      0x154 ./Sources/System.o
+                0x1fff09c0                enable_irq
+ .text.EN_Init  0x1fff0b14       0x28 ./Sources/System.o
+                0x1fff0b14                EN_Init
+ .text.KEY_Init
+                0x1fff0b3c       0xc4 ./Sources/System.o
+                0x1fff0b3c                KEY_Init
+ .text.SMG_Init
+                0x1fff0c00      0x164 ./Sources/System.o
+                0x1fff0c00                SMG_Init
+ .text.SMG_show_data
+                0x1fff0d64       0x98 ./Sources/System.o
+                0x1fff0d64                SMG_show_data
+ .text.PIT_init
+                0x1fff0dfc       0xa0 ./Sources/PIT.o
+                0x1fff0dfc                PIT_init
+ .text.MMA8451_init_I2C
+                0x1fff0e9c       0x94 ./Sources/MMA8451Q.o
+                0x1fff0e9c                MMA8451_init_I2C
+ .text.MMA8451_IIC_StartTransmission
+                0x1fff0f30       0x98 ./Sources/MMA8451Q.o
+                0x1fff0f30                MMA8451_IIC_StartTransmission
+ .text.Pause    0x1fff0fc8       0x28 ./Sources/MMA8451Q.o
+                0x1fff0fc8                Pause
+ .text.MMA8451_ReadRegister
+                0x1fff0ff0      0x1c8 ./Sources/MMA8451Q.o
+                0x1fff0ff0                MMA8451_ReadRegister
+ .text.MMA8451_WriteRegister
+                0x1fff11b8      0x110 ./Sources/MMA8451Q.o
+                0x1fff11b8                MMA8451_WriteRegister
+ .text.MMA8451_Init
+                0x1fff12c8       0x18 ./Sources/MMA8451Q.o
+                0x1fff12c8                MMA8451_Init
+ .text.LED_Init
+                0x1fff12e0      0x104 ./Sources/LED.o
+                0x1fff12e0                LED_Init
+ .text.LED_light
+                0x1fff13e4       0xf4 ./Sources/LED.o
+                0x1fff13e4                LED_light
+ .text.LED_color
+                0x1fff14d8      0x398 ./Sources/LED.o
+                0x1fff14d8                LED_color
+ .text.Beep_Init
+                0x1fff1870       0x68 ./Sources/Beep.o
+                0x1fff1870                Beep_Init
+ .text.FTM2_Init
+                0x1fff18d8       0x60 ./Sources/Beep.o
+                0x1fff18d8                FTM2_Init
+ .text.Beep_setup
+                0x1fff1938       0x30 ./Sources/Beep.o
+                0x1fff1938                Beep_setup
+ .text.ADC0_initial
+                0x1fff1968       0x94 ./Sources/ADC.o
+                0x1fff1968                ADC0_initial
+ .text.ADC1_initial
+                0x1fff19fc       0xa0 ./Sources/ADC.o
+                0x1fff19fc                ADC1_initial
+ .text.ADC_Init
+                0x1fff1a9c       0x10 ./Sources/ADC.o
+                0x1fff1a9c                ADC_Init
+ .text.ADC1_TR_DATA
+                0x1fff1aac       0x58 ./Sources/ADC.o
+                0x1fff1aac                ADC1_TR_DATA
+ .text.ADC0_TR_DATA
+                0x1fff1b04       0x58 ./Sources/ADC.o
+                0x1fff1b04                ADC0_TR_DATA
+ .text.ADC_channel_temperature
+                0x1fff1b5c       0x18 ./Sources/ADC.o
+                0x1fff1b5c                ADC_channel_temperature
+ .text.ADC_channel_potentiometer
+                0x1fff1b74       0x18 ./Sources/ADC.o
+                0x1fff1b74                ADC_channel_potentiometer
+ .text.data_to_array
+                0x1fff1b8c       0xcc ./Sources/ADC.o
+                0x1fff1b8c                data_to_array
+ .text.exit     0x1fff1c58       0x38 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+                0x1fff1c58                exit
+ .text.memset   0x1fff1c90        0xc D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+                0x1fff1c90                memset
+ .text.long2str.isra.0
+                0x1fff1c9c      0x196 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ *fill*         0x1fff1e32        0x2 00
+ .text.__pformatter_
+                0x1fff1e34      0x3f8 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+                0x1fff1e34                __pformatter_
+ .text.__sformatter
+                0x1fff222c      0x6f4 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+                0x1fff222c                __sformatter
+ .text.isalpha  0x1fff2920       0x1c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                0x1fff2920                isalpha
+ .text.isspace  0x1fff293c       0x1c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                0x1fff293c                isspace
+ .text.toupper  0x1fff2958        0xc D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                0x1fff2958                toupper
+ .text.__strtoul
+                0x1fff2964      0x214 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+                0x1fff2964                __strtoul
+ .text.__fill_mem
+                0x1fff2b78       0x76 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+                0x1fff2b78                __fill_mem
+ .text.memchr   0x1fff2bee       0x18 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+                0x1fff2bee                memchr
+ .text.strchr   0x1fff2c06       0x1a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+                0x1fff2c06                strchr
+ .text.strlen   0x1fff2c20       0x10 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+                0x1fff2c20                strlen
+ .text.__init_cpp
+                0x1fff2c30       0x4c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+                0x1fff2c30                __init_cpp
+ .text.__fini_cpp
+                0x1fff2c7c       0x34 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+                0x1fff2c7c                __fini_cpp
+ .text.__copy_rom_section
+                0x1fff2cb0       0x44 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+                0x1fff2cb0                __copy_rom_section
+ .text.__copy_rom_sections_to_ram
+                0x1fff2cf4       0x30 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+                0x1fff2cf4                __copy_rom_sections_to_ram
+ .text.__destroy_global_chain
+                0x1fff2d24       0x18 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                0x1fff2d24                __destroy_global_chain
+ .text.__init_registers
+                0x1fff2d3c       0x24 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                0x1fff2d3c                __init_registers
+ .text.__init_user
+                0x1fff2d60        0x4 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                0x1fff2d60                __init_user
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x1fff2d64        0x1 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .rodata.CSWTCH.20
+                0x1fff2d65        0x5 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .rodata.CSWTCH.21
+                0x1fff2d6a        0x5 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .rodata.__aeabi_ctype_table_C
+                0x1fff2d6f      0x101 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                0x1fff2d6f                __aeabi_ctype_table_C
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x1fff2e70                . = ALIGN (0x4)
+                0x1fff2e70                _etext = .
+
+.vfp11_veneer   0x1fff2e70        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x1fff2e70        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x1fff2e70        0x0
+ .iplt          0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+
+.rel.dyn        0x1fff2e70        0x0
+ .rel.iplt      0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x1fff2e70        0x0
+                0x1fff2e70                __exidx_start = .
+ *(.ARM.exidx*)
+                0x1fff2e70                __exidx_end = .
+
+.ctors          0x1fff2e70        0x0
+                0x1fff2e70                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x1fff2e70                __CTOR_END__ = .
+
+.dtors          0x1fff2e70        0x0
+                0x1fff2e70                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x1fff2e70                __DTOR_END__ = .
+
+.preinit_array  0x1fff2e70        0x0
+                0x1fff2e70                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x1fff2e70                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x1fff2e70        0x0
+                0x1fff2e70                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+                0x1fff2e70                PROVIDE (__init_array_end, .)
+
+.fini_array     0x1fff2e70        0x0
+                0x1fff2e70                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+                0x1fff2e70                PROVIDE (__fini_array_end, .)
+
+.data           0x20000000       0x28
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.uartclk_khz
+                0x20000000        0x2 ./Sources/UART0.o
+                0x20000000                uartclk_khz
+ .data.baud     0x20000002        0x2 ./Sources/UART0.o
+                0x20000002                baud
+ .data.Num      0x20000004        0xc ./Sources/System.o
+                0x20000004                Num
+ .data.led      0x20000010       0x18 ./Sources/System.o
+                0x20000010                led
+                0x20000028                . = ALIGN (0x4)
+                0x20000028                _edata = .
+
+.igot.plt       0x20000028        0x0
+ .igot.plt      0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x20000028                . = ALIGN (0x4)
+
+.bss            0x20000028       0x68
+                0x20000028                __START_BSS = .
+                0x20000028                PROVIDE (__bss_start__, __START_BSS)
+ *(.bss)
+ *(.bss*)
+ .bss.number    0x20000028        0x4 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x20000028                number
+ .bss.flag_100ms
+                0x2000002c        0x4 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x2000002c                flag_100ms
+ .bss.argv      0x20000030        0x4 ./Project_Settings/Startup_Code/__arm_start.o
+ .bss.__stdio_exit
+                0x20000034        0x4 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+                0x20000034                __stdio_exit
+ .bss.__console_exit
+                0x20000038        0x4 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+                0x20000038                __console_exit
+ .bss.__S_romp  0x2000003c        0xc D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .bss.__global_destructor_chain
+                0x20000048        0x4 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                0x20000048                __global_destructor_chain
+ *(COMMON)
+ COMMON         0x2000004c       0x12 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x2000004c                flag_measure
+                0x20000050                MMA8451_data
+                0x20000056                lED4_light_flag
+                0x20000057                lED3_light_flag
+                0x20000058                c
+                0x2000005c                lED2_light_flag
+                0x2000005d                lED1_light_flag
+ *fill*         0x2000005e        0x2 00
+ COMMON         0x20000060       0x25 ./Sources/main.o
+                0x20000060                temperature_value
+                0x20000064                MMA8451_Y_MSB
+                0x20000068                photo_value
+                0x2000006c                ADC_value
+                0x20000070                MMA8451_Z_LSB
+                0x20000071                MMA8451_XYZ_CFG
+                0x20000072                MMA8451_X_LSB
+                0x20000073                MMA8451_X_MSB
+                0x20000074                MMA8451_Y_LSB
+                0x20000078                show
+                0x20000080                ADC_Result
+                0x20000084                MMA8451_Z_MSB
+ *fill*         0x20000085        0x1 00
+ COMMON         0x20000086        0x6 ./Sources/UART0.o
+                0x20000086                tom
+                0x20000088                brfa
+                0x2000008a                sbr
+ COMMON         0x2000008c        0x2 ./Sources/MMA8451Q.o
+                0x2000008c                SlaveID
+                0x2000008d                MasterTransmission
+                0x20000090                . = ALIGN (0x4)
+ *fill*         0x2000008e        0x2 00
+                0x20000090                __END_BSS = .
+                0x20000090                PROVIDE (__bss_end__, __END_BSS)
+
+._user_heap_stack
+                0x20000090     0x1000
+                0x20000090                . = ALIGN (0x4)
+                0x20000090                PROVIDE (end, .)
+                0x20000090                PROVIDE (_end, .)
+                0x20000090                __heap_addr = .
+                0x20000890                . = (. + __heap_size)
+ *fill*         0x20000090      0x800 00
+                0x20001090                . = (. + __stack_size)
+ *fill*         0x20000890      0x800 00
+                0x20001090                . = ALIGN (0x4)
+                0x00000000                __S_romp = 0x0
+
+.ARM.attributes
+                0x00000000       0x33
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x33 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .ARM.attributes
+                0x00000033       0x33 ./Project_Settings/Startup_Code/__arm_start.o
+ .ARM.attributes
+                0x00000066       0x33 ./Project_Settings/Startup_Code/__arm_end.o
+ .ARM.attributes
+                0x00000099       0x33 ./Sources/main.o
+ .ARM.attributes
+                0x000000cc       0x33 ./Sources/UART0.o
+ .ARM.attributes
+                0x000000ff       0x33 ./Sources/System.o
+ .ARM.attributes
+                0x00000132       0x33 ./Sources/PIT.o
+ .ARM.attributes
+                0x00000165       0x33 ./Sources/MMA8451Q.o
+ .ARM.attributes
+                0x00000198       0x33 ./Sources/LED.o
+ .ARM.attributes
+                0x000001cb       0x33 ./Sources/Beep.o
+ .ARM.attributes
+                0x000001fe       0x33 ./Sources/ADC.o
+ .ARM.attributes
+                0x00000231       0x33 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .ARM.attributes
+                0x00000264       0x33 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .ARM.attributes
+                0x00000297       0x33 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .ARM.attributes
+                0x000002ca       0x33 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .ARM.attributes
+                0x000002fd       0x33 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .ARM.attributes
+                0x00000330       0x33 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .ARM.attributes
+                0x00000363       0x33 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .ARM.attributes
+                0x00000396       0x33 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .ARM.attributes
+                0x000003c9       0x33 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .ARM.attributes
+                0x000003fc       0x33 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .ARM.attributes
+                0x0000042f       0x33 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .ARM.attributes
+                0x00000462       0x33 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .ARM.attributes
+                0x00000495       0x33 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+OUTPUT(K20_Lab_Board_V4.2.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x4f0c
+ .debug_info    0x00000000      0xa23 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_info    0x00000a23      0x12a ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_info    0x00000b4d       0x54 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_info    0x00000ba1      0x191 ./Sources/main.o
+ .debug_info    0x00000d32      0x7dd ./Sources/UART0.o
+ .debug_info    0x0000150f      0x662 ./Sources/System.o
+ .debug_info    0x00001b71      0x35b ./Sources/PIT.o
+ .debug_info    0x00001ecc      0x550 ./Sources/MMA8451Q.o
+ .debug_info    0x0000241c      0x47b ./Sources/LED.o
+ .debug_info    0x00002897      0x57a ./Sources/Beep.o
+ .debug_info    0x00002e11      0x60b ./Sources/ADC.o
+ .debug_info    0x0000341c       0xe8 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_info    0x00003504       0xec D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_info    0x000035f0      0x50e D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_info    0x00003afe      0x565 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_info    0x00004063      0x306 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_info    0x00004369      0x1d6 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_info    0x0000453f      0x135 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_info    0x00004674      0x120 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_info    0x00004794      0x108 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_info    0x0000489c       0xeb D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_info    0x00004987      0x136 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_info    0x00004abd      0x19a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_info    0x00004c57      0x2b5 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+
+.debug_abbrev   0x00000000     0x166c
+ .debug_abbrev  0x00000000      0x186 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_abbrev  0x00000186       0x92 ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_abbrev  0x00000218       0x4c ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_abbrev  0x00000264       0x8b ./Sources/main.o
+ .debug_abbrev  0x000002ef      0x184 ./Sources/UART0.o
+ .debug_abbrev  0x00000473      0x111 ./Sources/System.o
+ .debug_abbrev  0x00000584       0xcd ./Sources/PIT.o
+ .debug_abbrev  0x00000651      0x13f ./Sources/MMA8451Q.o
+ .debug_abbrev  0x00000790      0x106 ./Sources/LED.o
+ .debug_abbrev  0x00000896       0xf1 ./Sources/Beep.o
+ .debug_abbrev  0x00000987      0x117 ./Sources/ADC.o
+ .debug_abbrev  0x00000a9e       0x7a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_abbrev  0x00000b18       0x62 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_abbrev  0x00000b7a      0x200 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_abbrev  0x00000d7a      0x1f0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_abbrev  0x00000f6a       0x85 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_abbrev  0x00000fef       0xc2 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_abbrev  0x000010b1       0x87 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_abbrev  0x00001138       0x95 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_abbrev  0x000011cd       0x89 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_abbrev  0x00001256       0x7a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_abbrev  0x000012d0       0x99 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_abbrev  0x00001369      0x137 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_abbrev  0x000014a0      0x1cc D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+
+.debug_loc      0x00000000     0x2657
+ .debug_loc     0x00000000      0x114 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_loc     0x00000114       0x2c ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_loc     0x00000140       0x38 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_loc     0x00000178       0x2c ./Sources/main.o
+ .debug_loc     0x000001a4      0x138 ./Sources/UART0.o
+ .debug_loc     0x000002dc      0x12c ./Sources/System.o
+ .debug_loc     0x00000408       0x38 ./Sources/PIT.o
+ .debug_loc     0x00000440      0x138 ./Sources/MMA8451Q.o
+ .debug_loc     0x00000578       0x9c ./Sources/LED.o
+ .debug_loc     0x00000614       0x90 ./Sources/Beep.o
+ .debug_loc     0x000006a4      0x16c ./Sources/ADC.o
+ .debug_loc     0x00000810       0x3e D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_loc     0x0000084e       0x64 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_loc     0x000008b2      0xbdc D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_loc     0x0000148e      0x8b6 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_loc     0x00001d44      0x18e D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_loc     0x00001ed2      0x2bb D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_loc     0x0000218d      0x12c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_loc     0x000022b9       0x62 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_loc     0x0000231b       0x7c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_loc     0x00002397       0x26 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_loc     0x000023bd       0x9d D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_loc     0x0000245a       0xb9 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_loc     0x00002513      0x144 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+
+.debug_aranges  0x00000000      0x4c8
+ .debug_aranges
+                0x00000000       0x48 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_aranges
+                0x00000048       0x30 ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_aranges
+                0x00000078       0x20 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_aranges
+                0x00000098       0x20 ./Sources/main.o
+ .debug_aranges
+                0x000000b8       0x48 ./Sources/UART0.o
+ .debug_aranges
+                0x00000100       0x48 ./Sources/System.o
+ .debug_aranges
+                0x00000148       0x20 ./Sources/PIT.o
+ .debug_aranges
+                0x00000168       0x48 ./Sources/MMA8451Q.o
+ .debug_aranges
+                0x000001b0       0x30 ./Sources/LED.o
+ .debug_aranges
+                0x000001e0       0x30 ./Sources/Beep.o
+ .debug_aranges
+                0x00000210       0x58 ./Sources/ADC.o
+ .debug_aranges
+                0x00000268       0x20 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_aranges
+                0x00000288       0x20 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_aranges
+                0x000002a8       0x28 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_aranges
+                0x000002d0       0x20 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_aranges
+                0x000002f0       0x88 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_aranges
+                0x00000378       0x20 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_aranges
+                0x00000398       0x20 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_aranges
+                0x000003b8       0x20 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_aranges
+                0x000003d8       0x20 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_aranges
+                0x000003f8       0x20 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_aranges
+                0x00000418       0x28 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_aranges
+                0x00000440       0x30 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_aranges
+                0x00000470       0x58 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+
+.debug_macinfo  0x00000000   0x3465d6
+ .debug_macinfo
+                0x00000000    0x5c777 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_macinfo
+                0x0005c777     0x3f3e ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_macinfo
+                0x000606b5     0x3527 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_macinfo
+                0x00063bdc    0x5c713 ./Sources/main.o
+ .debug_macinfo
+                0x000c02ef    0x5c4b0 ./Sources/UART0.o
+ .debug_macinfo
+                0x0011c79f    0x5c4b0 ./Sources/System.o
+ .debug_macinfo
+                0x00178c4f    0x5c4b0 ./Sources/PIT.o
+ .debug_macinfo
+                0x001d50ff    0x5c6c7 ./Sources/MMA8451Q.o
+ .debug_macinfo
+                0x002317c6    0x5c4b0 ./Sources/LED.o
+ .debug_macinfo
+                0x0028dc76    0x5c4b0 ./Sources/Beep.o
+ .debug_macinfo
+                0x002ea126    0x5c4b0 ./Sources/ADC.o
+
+.debug_line     0x00000000     0x288b
+ .debug_line    0x00000000      0x2d6 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_line    0x000002d6      0x2ad ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_line    0x00000583      0x28e ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_line    0x00000811      0x23b ./Sources/main.o
+ .debug_line    0x00000a4c      0x25f ./Sources/UART0.o
+ .debug_line    0x00000cab      0x27a ./Sources/System.o
+ .debug_line    0x00000f25      0x1e5 ./Sources/PIT.o
+ .debug_line    0x0000110a      0x290 ./Sources/MMA8451Q.o
+ .debug_line    0x0000139a      0x255 ./Sources/LED.o
+ .debug_line    0x000015ef      0x20d ./Sources/Beep.o
+ .debug_line    0x000017fc      0x288 ./Sources/ADC.o
+ .debug_line    0x00001a84       0x94 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_line    0x00001b18       0x8f D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_line    0x00001ba7      0x2b4 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_line    0x00001e5b      0x2df D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_line    0x0000213a      0x1a9 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_line    0x000022e3      0x11b D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_line    0x000023fe       0xcd D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_line    0x000024cb       0x9f D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_line    0x0000256a       0x7d D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_line    0x000025e7       0x83 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_line    0x0000266a       0x67 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_line    0x000026d1       0xa9 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_line    0x0000277a      0x111 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+
+.debug_str      0x00000000     0x134f
+ .debug_str     0x00000000      0x44a ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                                0x48a (size before relaxing)
+ .debug_str     0x0000044a       0x85 ./Project_Settings/Startup_Code/__arm_start.o
+                                0x195 (size before relaxing)
+ .debug_str     0x000004cf       0x41 ./Project_Settings/Startup_Code/__arm_end.o
+                                 0xcc (size before relaxing)
+ .debug_str     0x00000510       0xb7 ./Sources/main.o
+                                0x1d4 (size before relaxing)
+ .debug_str     0x000005c7      0x125 ./Sources/UART0.o
+                                0x35d (size before relaxing)
+ .debug_str     0x000006ec       0xd7 ./Sources/System.o
+                                0x30c (size before relaxing)
+ .debug_str     0x000007c3       0x24 ./Sources/PIT.o
+                                0x244 (size before relaxing)
+ .debug_str     0x000007e7       0xe6 ./Sources/MMA8451Q.o
+                                0x30a (size before relaxing)
+ .debug_str     0x000008cd       0x48 ./Sources/LED.o
+                                0x2c2 (size before relaxing)
+ .debug_str     0x00000915       0xdb ./Sources/Beep.o
+                                0x304 (size before relaxing)
+ .debug_str     0x000009f0       0xf9 ./Sources/ADC.o
+                                0x338 (size before relaxing)
+ .debug_str     0x00000ae9       0x5a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+                                0x157 (size before relaxing)
+ .debug_str     0x00000b43       0x23 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+                                0x140 (size before relaxing)
+ .debug_str     0x00000b66      0x23b D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+                                0x3b3 (size before relaxing)
+ .debug_str     0x00000da1      0x184 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+                                0x3f9 (size before relaxing)
+ .debug_str     0x00000f25       0x9d D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                                0x1bc (size before relaxing)
+ .debug_str     0x00000fc2       0x55 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+                                0x1fb (size before relaxing)
+ .debug_str     0x00001017       0x25 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+                                0x152 (size before relaxing)
+ .debug_str     0x0000103c       0x1c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+                                0x148 (size before relaxing)
+ .debug_str     0x00001058       0x1c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+                                0x137 (size before relaxing)
+ .debug_str     0x00001074       0x1c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+                                0x140 (size before relaxing)
+ .debug_str     0x00001090      0x126 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+                                0x181 (size before relaxing)
+ .debug_str     0x000011b6       0xa1 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+                                0x13c (size before relaxing)
+ .debug_str     0x00001257       0xf8 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                                0x1b5 (size before relaxing)
+
+.comment        0x00000000       0x79
+ .comment       0x00000000       0x79 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                                 0x7a (size before relaxing)
+ .comment       0x00000000       0x7a ./Project_Settings/Startup_Code/__arm_start.o
+ .comment       0x00000000       0x7a ./Project_Settings/Startup_Code/__arm_end.o
+ .comment       0x00000000       0x7a ./Sources/main.o
+ .comment       0x00000000       0x7a ./Sources/UART0.o
+ .comment       0x00000000       0x7a ./Sources/System.o
+ .comment       0x00000000       0x7a ./Sources/PIT.o
+ .comment       0x00000000       0x7a ./Sources/MMA8451Q.o
+ .comment       0x00000000       0x7a ./Sources/LED.o
+ .comment       0x00000000       0x7a ./Sources/Beep.o
+ .comment       0x00000000       0x7a ./Sources/ADC.o
+ .comment       0x00000000       0x7a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .comment       0x00000000       0x7a D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+
+.debug_frame    0x00000000      0x918
+ .debug_frame   0x00000000       0xb4 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_frame   0x000000b4       0x4c ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_frame   0x00000100       0x2c ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_frame   0x0000012c       0x2c ./Sources/main.o
+ .debug_frame   0x00000158       0xb4 ./Sources/UART0.o
+ .debug_frame   0x0000020c       0xb4 ./Sources/System.o
+ .debug_frame   0x000002c0       0x2c ./Sources/PIT.o
+ .debug_frame   0x000002ec       0xbc ./Sources/MMA8451Q.o
+ .debug_frame   0x000003a8       0x60 ./Sources/LED.o
+ .debug_frame   0x00000408       0x5c ./Sources/Beep.o
+ .debug_frame   0x00000464       0xd8 ./Sources/ADC.o
+ .debug_frame   0x0000053c       0x28 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_frame   0x00000564       0x28 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_frame   0x0000058c       0x64 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_frame   0x000005f0       0x3c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_frame   0x0000062c       0xf0 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_frame   0x0000071c       0x3c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_frame   0x00000758       0x2c D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_frame   0x00000784       0x20 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_frame   0x000007a4       0x20 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_frame   0x000007c4       0x20 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_frame   0x000007e4       0x40 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_frame   0x00000824       0x48 D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_frame   0x0000086c       0xac D:/Program Files (x86)/CW MCU v10.4/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)

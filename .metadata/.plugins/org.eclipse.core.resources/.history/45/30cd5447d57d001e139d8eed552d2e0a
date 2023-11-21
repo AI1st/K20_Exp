@@ -1,0 +1,80 @@
+/*
+ * main implementation: use this 'C' sample to create your own application
+ *
+ */
+#include "derivative.h" /* include peripheral declarations */
+#include "LED_CODE.h"  
+
+unsigned int ADC_Result;
+float voltage;
+
+unsigned char num[11]={0xA0,0xBE,0x62,0x2A,0x3C,0x29,0x21,0xBA,0x20,0x28,0x7F};
+
+void partial_delay(int delay_t)
+	{  
+	   unsigned short i,j;
+	   for(i=0;i<30*delay_t;i++) 
+	      for(j=0;j<20; j++)
+	         asm("nop");
+	}
+
+void ADC0_initial()
+{
+	//ADC0 initial
+	    SIM_SCGC5|=SIM_SCGC5_PORTB_MASK;
+	    SIM_SCGC6|=SIM_SCGC6_ADC0_MASK;
+	    
+	    PORTB_PCR3=PORT_PCR_MUX(0X0);
+	    
+		ADC0_CFG1=ADC_CFG1_ADLSMP_MASK+ADC_CFG1_MODE(1);	
+		ADC0_SC3=ADC_SC3_ADCO_MASK; 
+		ADC0_SC1A=ADC_SC1_ADCH(13);		 //potentiometers sensor path acquire	
+}
+
+void LED_Iniled()
+{
+	SIM_SCGC5|=0x3E00;
+	PORTC_PCR0 = On;
+	PORTC_PCR1 = On;
+	PORTC_PCR2 = On;
+	PORTC_PCR3 = On;
+	PORTC_PCR4 = On;
+	PORTC_PCR5 = On;
+	PORTC_PCR6 = On;
+	PORTC_PCR7 = On;
+	PORTC_PCR8 = On;
+	PORTC_PCR9 = On;
+	PORTC_PCR10 = On;
+	PORTC_PCR11 = On;
+	GPIOC_PDOR|= 0x0FFF;
+	GPIOC_PDDR =0x0FFF;
+}
+
+unsigned int ADC0_TR_DATA()
+{
+	//check convert complete flag 
+	while((ADC0_SC1A&ADC_SC1_COCO_MASK)!=ADC_SC1_COCO_MASK);
+	  	
+	ADC_Result=ADC0_RA;
+	
+	//clear flag	   	
+   	ADC0_SC1A&=~ADC_SC1_COCO_MASK;
+   	
+   	return ADC_Result;
+}
+
+int main(void)
+{
+	LED_Iniled();
+	ADC0_initial();
+	LED_Disp_Init();
+	
+	
+	for(;;) {	   
+		
+		photo_value=ADC0_TR_DATA();
+
+	}
+	
+	return 0;
+}

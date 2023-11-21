@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;breathing lamps/Sources/INT_PIT&apos; to &apos;INT_PIT.c&apos;" description="Rename resource &apos;INT_PIT&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Sources/INT_PIT" name="INT_PIT.c" stamp="1699979368065" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;breathing lamps/Project_Headers/INKEY.h&apos; to &apos;INT_PIT.h&apos;" description="Rename resource &apos;INKEY.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Project_Headers/INKEY.h" name="INT_PIT.h" stamp="1699979502888" updateReferences="true"/>
+</session>

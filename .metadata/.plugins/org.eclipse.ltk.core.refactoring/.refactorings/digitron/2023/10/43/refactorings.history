@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;digitron/Sources/LED_CODE&apos; to &apos;LED_CODE.c&apos;" description="Rename resource &apos;LED_CODE&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Sources/LED_CODE" name="LED_CODE.c" stamp="1698170322970" updateReferences="true"/>
+</session>

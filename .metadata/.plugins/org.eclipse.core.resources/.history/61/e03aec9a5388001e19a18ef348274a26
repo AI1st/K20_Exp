@@ -1,0 +1,15 @@
+/*
+ * digitron.h
+ *
+ *  Created on: Nov 21, 2023
+ *      Author: Lenovo
+ */
+
+#ifndef DIGITRON_H_
+#define DIGITRON_H_
+
+void enable_irq(int irq);
+void EN_Init();
+void KEY_Init();
+
+#endif /* DIGITRON_H_ */
